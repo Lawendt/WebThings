@@ -1,0 +1,37 @@
+
+
+.grid {
+    padding: 2x 2x;
+    text-align: center;
+    align-content: center;
+
+   display: block;
+    margin: 0 auto;
+    width: 1180px;
+
+
+}
+
+.page { 
+    margin: 0 0;
+    color: cornflowerblue;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+    width: 387px;
+	vertical-align: top;
+}
+
+
+.page a {
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+
+.page a:hover {
+    color: aqua;
+}
