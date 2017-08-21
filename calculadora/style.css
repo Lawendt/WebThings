@@ -1,0 +1,44 @@
+section{
+
+}
+
+.calculadora {
+    text-align: center;
+    display: block;
+    width: 360px;
+    height: 495px;
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0.8);
+
+}
+
+.calculadora .display{
+    text-align: right;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(128,128,128,0.8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 62px;
+}
+
+.calculadora .displaytext{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    border: solid 1px red;
+    
+}
+
+.keyboard {
+    height: 365px;
+}
+.keyboardRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculadora button {
+    flex-grow: 1;
+}
