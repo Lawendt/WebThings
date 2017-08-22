@@ -7,6 +7,8 @@
         <meta name="description" content="Calculadora. Made to">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <link href="//fonts.googleapis.com/css?family=Droid Sans" rel="stylesheet" type="text/css">
+        <script type:"text/javascript" src="calculator.js"></script>
     </head>
     <body>
         <header>
@@ -22,43 +24,41 @@
         <section>
             <article class = "calculadora">
                 <div class = "display">
-                    <div class = "displaytext">
-                        0
-                    </div>
+                    <div id = "displayText" class = "displaytext">0</div>
                 </div>
                 <div class = "keyboard">
                 <div class = "keyboardRow">
-                    <button id = "ac"> AC </button>
-                    <button id = "+/-"> +/- </button>
-                    <button id = "%"> % </button>
-                    <button id = "/" class = "operation"> / </button>
+                    <button id = "ac" class = "top" onclick = "clickButton(this, this.id)"> AC </button>
+                    <button id = "+/-" class = "top" onclick = "clickButton(this, this.id)"> +/- </button>
+                    <button id = "%" class = "top" onclick = "clickButton(this, this.id)"> % </button>
+                    <button id = "/" class = "operation" onclick = "clickButton(this, this.id)"> / </button>
                 </div>
                     
                 <div class = "keyboardRow">
-                    <button id = "7" class = "2"> 7 </button>
-                    <button id = "8" class = "2"> 8 </button>
-                    <button id = "9" class = "2"> 9 </button>
-                    <button id = "x" class = "2 operation"> x </button>
+                    <button id = "7" class = "2" onclick = "clickButton(this, this.id)"> 7 </button>
+                    <button id = "8" class = "2" onclick = "clickButton(this, this.id)"> 8 </button>
+                    <button id = "9" class = "2" onclick = "clickButton(this, this.id)"> 9 </button>
+                    <button id = "x" class = "2 operation" onclick = "clickButton(this, this.id)"> x </button>
                 </div>
                      
                 <div class = "keyboardRow">
-                    <button id = "4"> 4 </button>
-                    <button id = "5"> 5 </button>
-                    <button id = "6"> 6 </button>
-                    <button id = "-" class = "operation"> - </button>
+                    <button id = "4" onclick = "clickButton(this, this.id)"> 4 </button>
+                    <button id = "5" onclick = "clickButton(this, this.id)"> 5 </button>
+                    <button id = "6" onclick = "clickButton(this, this.id)"> 6 </button>
+                    <button id = "-" class = "operation" onclick = "clickButton(this, this.id)"> - </button>
                 </div>
                     
                 <div class = "keyboardRow">
-                    <button id = "1"> 1 </button>
-                    <button id = "2"> 2 </button>
-                    <button id = "3"> 3 </button>
-                    <button id = "+" class = "operation"> + </button>
+                    <button id = "1" onclick = "clickButton(this, this.id)"> 1 </button>
+                    <button id = "2" onclick = "clickButton(this, this.id)"> 2 </button>
+                    <button id = "3" onclick = "clickButton(this, this.id)"> 3 </button>
+                    <button id = "+" class = "operation" onclick = "clickButton(this, this.id)"> + </button>
                 </div>
                     
                 <div class = "keyboardRow">
-                    <button id = "0" class = "twice roundBL"><div class = "zero">0 </div> <div class = "zero"></div></button>
-                    <button id = ","> , </button>
-                    <button id = "=" class = "operation roundBR"> = </button>
+                    <button id = "0" class = "twice roundBL" onclick = "clickButton(this, this.id)"><div class = "zero">0 </div> <div class = "zero"></div></button>
+                    <button id = "," onclick = "clickButton(this, this.id)"> , </button>
+                    <button id = "=" class = "operation roundBR" onclick = "clickButton(this, this.id)"> = </button>
                 </div>
                 </div>
             </article> <br>
