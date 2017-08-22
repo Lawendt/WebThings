@@ -1,0 +1,44 @@
+.description {
+    background-color: brown;
+    float:left;
+    width: 40%;
+    font-size: 125%;
+    
+    position: relative;
+
+    display: inline-block;
+ 
+}
+
+.pictureDesc {
+
+}
+
+.description h1 {
+    color: burlywood;
+    text-shadow: 2px 1px #444444;
+    text-align: center
+}
+
+img {
+    display: inline-block;
+    width: 225px;
+    margin-left: 3px;
+}
+
+th {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    text-align : right;
+    padding-left: 10px;
+}
+
+td {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    text-align: left;
+    margin-left: 2px;
+
+}
